@@ -10,18 +10,112 @@
     BG Credit: Mohammad Abdul Mohaiman https://wweb.dev/resources/animated-css-background-generator
     */
     @keyframes animate {
-      0%{
-          transform: translateY(0) rotate(0deg);
-          opacity: 1;
-          border-radius: 0;
-      }
-      100%{
-          transform: translateY(-1000px) rotate(720deg);
-          opacity: 0;
-          border-radius: 50%;
-      }
+        0%{
+            transform: translateY(0) rotate(0deg);
+            opacity: 1;
+            border-radius: 0;
+        }
+        100%{
+            transform: translateY(-1000px) rotate(720deg);
+            opacity: 0;
+            border-radius: 50%;
+        }
     }
 
+    .background {
+        position: fixed;
+        width: 100vw;
+        height: 100vh;
+        top: 0;
+        left: 0;
+        margin: 0;
+        padding: 0;
+        background: #4e54c8;
+        overflow: hidden;
+    }
+    .background li {
+        position: absolute;
+        display: block;
+        list-style: none;
+        width: 20px;
+        height: 20px;
+        background: rgba(255, 255, 255, 0.2);
+        animation: animate 19s linear infinite;
+    }
+    
+    
+    
+    
+    .background li:nth-child(0) {
+        left: 74%;
+        width: 152px;
+        height: 152px;
+        bottom: -152px;
+        animation-delay: 1s;
+    }
+    .background li:nth-child(1) {
+        left: 68%;
+        width: 169px;
+        height: 169px;
+        bottom: -169px;
+        animation-delay: 2s;
+    }
+    .background li:nth-child(2) {
+        left: 26%;
+        width: 125px;
+        height: 125px;
+        bottom: -125px;
+        animation-delay: 4s;
+    }
+    .background li:nth-child(3) {
+        left: 70%;
+        width: 198px;
+        height: 198px;
+        bottom: -198px;
+        animation-delay: 9s;
+    }
+    .background li:nth-child(4) {
+        left: 31%;
+        width: 138px;
+        height: 138px;
+        bottom: -138px;
+        animation-delay: 2s;
+    }
+    .background li:nth-child(5) {
+        left: 71%;
+        width: 129px;
+        height: 129px;
+        bottom: -129px;
+        animation-delay: 16s;
+    }
+    .background li:nth-child(6) {
+        left: 72%;
+        width: 109px;
+        height: 109px;
+        bottom: -109px;
+        animation-delay: 26s;
+    }
+    .background li:nth-child(7) {
+        left: 63%;
+        width: 180px;
+        height: 180px;
+        bottom: -180px;
+        animation-delay: 17s;
+    }
+    .background li:nth-child(8) {
+        left: 43%;
+        width: 116px;
+        height: 116px;
+        bottom: -116px;
+        animation-delay: 33s;
+    }
+    .background li:nth-child(9) {
+        left: 4%;
+        width: 185px;
+        height: 185px;
+        bottom: -185px;
+        animation-delay: 14s;
+    }
 
     </style>
   </head>
