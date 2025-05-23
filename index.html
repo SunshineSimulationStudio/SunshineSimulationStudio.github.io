@@ -9,21 +9,20 @@
       .landingpage{
         position:absolute;
         background-color:rgba(255, 255, 255, 0);
-        height:1024px;
-        width:1440px;
+        height:100%;
+        width:100%;
         padding:0px;
         display:flex;
         flex-direction:column;
         flex-wrap:nowrap;
         align-items:center;
         justify-content:center;
-        gap:48px;
       }
       .navigation{
         background-color:rgba(255, 255, 255, 0.4699999988079071);
-        height:164px;
-        width:1440px;
-        border-radius:63px;
+        height:150;
+        width:95%;
+        border-radius:75px;
         padding:0px;
         display:flex;
         flex-direction:row;
@@ -38,79 +37,36 @@
         color:#000000;
         text-align:center;
         vertical-align:text-middle;
-              font-family: "Nunito", sans-serif;
-              font-optical-sizing: auto;
-              font-style: normal;
+        font-family: "Nunito", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
         font-size:64px;
         border-style:hidden;
         outline:none;
         width:95%;
         display:flex;
       }
-      .copy{
-      height:219px;
-      width:918px;
-      align-self:flex-start;
-      left:261px;
-      top:212px;
-      position:absolute;
-      padding:0px;
-      display:flex;
-      flex-direction:column;
-      gap:40px;
-      }
-      .pagetitle
-      {
-      height:219px;
-      width:918px;
-      padding:0px;
-      display:flex;
-      flex-direction:column;
-      gap:24px;
-      }
-      .bodyheader
-      {
-      color:#000000;
-      text-align:center;
-      vertical-align:text-middle;
-              font-family: "Nunito", sans-serif;
-              font-optical-sizing: auto;
-              font-style: normal;
-      line-height:auto;
-      border-style:hidden;
-      outline:none;
-      width:958px;
-      }
-      .bodytext
-      {
-      color:#000000;
-      text-align:center;
-      vertical-align:text-middle;
-              font-family: "Nunito", sans-serif;
-              font-optical-sizing: auto;
-              font-style: normal;
-      font-size:40px
-      border-style:hidden;
-      outline:none;
-      width:95%;
-      }
-
-      .bebas-neue-regular {
-        font-family: "Bebas Neue", sans-serif;
-        font-weight: 400;
-        font-style: normal;
-      }
-      
-      // <weight>: Use a value from 200 to 1000
-      // <uniquifier>: Use a unique and descriptive class name
-      
-      .nunito-<uniquifier> {
+      .bodytext{
+        background-color:rgba(255, 255, 255, 0.4699999988079071);
+        height:auto;
+        width:95%;
+        border-radius:75px;
+        padding:0px;
+        display:flex;
+        flex-direction:row;
+        flex-wrap:nowrap;
+        align-items:center;
+        justify-content:center;
+        text-align:center;
+        vertical-align:text-middle;
         font-family: "Nunito", sans-serif;
         font-optical-sizing: auto;
-        font-weight: <weight>;
         font-style: normal;
-      }
-
+        font-size:40px
+        border-style:hidden;
+        outline:none;
+        width:95%;
+       }
     /*
     BG Credit: Mohammad Abdul Mohaiman https://wweb.dev/resources/animated-css-background-generator
     */
@@ -147,10 +103,6 @@
         background: rgba(255, 255, 255, 0.2);
         animation: animate 19s linear infinite;
     }
-    
-    
-    
-    
     .background li:nth-child(0) {
         left: 74%;
         width: 152px;
@@ -221,7 +173,6 @@
         bottom: -185px;
         animation-delay: 14s;
     }
-
     </style>
   </head>
   <body>
@@ -238,23 +189,21 @@
        <li></li>
     </ul>
     <div id='landingpage' class='landingpage'>
-<div id='navigation' class='navigation'>
-<div id='siteTitle' class='siteTitle'>
-Sunshine Simulation Studio</div>
-</div>
-<div id='copy' class='copy'>
-<div id='pagetitle' class='pagetitle'>
-<div id='bodyheader' class='makingtoolstoysandgames'>
-</div>
-<div id='bodytext' class='bodytext'>
-Making Tools Toys and Games
-</div>
-<div id='bodytext' class='bodytext'> 
-More to come. Currently building, check back for updates and feel free to contact if you have any questions or need support. 
-</div>
-</div>
-</div>
-</div>
-
+    <div id='navigation' class='navigation'>
+    <div id='siteTitle' class='siteTitle'>
+        Sunshine Simulation Studio
+    </div>
+    <div id='bodytext' class='bodytext'>
+        Making Tools Toys and Games
+    </div>
+    <div id='bodytext' class='bodytext'> 
+        More to come. Currently building, check back for updates and feel free to contact if you have any questions or need support. 
+    </div>
+    <div id='bodytext' class='bodytext'> 
+       Currently in development of AI agent for Unity. 
+    </div>
+    </div>
+    </div>
+    </div>
   </body>
 </html>
