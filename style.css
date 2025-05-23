@@ -1,0 +1,133 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+}
+
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+// <weight>: Use a value from 200 to 1000
+// <uniquifier>: Use a unique and descriptive class name
+
+.nunito-<uniquifier> {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+.header {
+    height: 70px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    /* background: rgb(18, 18, 18); */
+    background: rgba(5, 5, 5, 0.5);
+    -webkit-backdrop-filter: blur(130px);
+    backdrop-filter: blur(50px);
+    z-index: 123;
+}
+
+
+
+
+.logo {
+    float: left;
+    padding-left: 23px;
+    font-family: 'JetBrains Mono', monospace;
+    color: white;
+}
+
+.logo h1 {
+    font-size: 17px;
+}
+
+
+
+
+.navbar {
+    padding-right: 14px;
+    float: right;
+}
+
+.navbar a {
+    float: right;
+    align-self: center;
+
+    display: block;
+    color: grey;
+    text-align: center;
+    font-size: 16px;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: rgb(213, 213, 213);
+}
+
+
+.fullscreenSection {
+    width: 100vw;
+    height: 100vh;
+    padding-left: 10vw;
+    /* padding-top: 20vw; */
+    /* position: absolute; */
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+
+}
+
+.fullscreenSection h1 {
+    font-size: 35px;
+    color: white;
+}
+
+.fullscreenSection h2 {
+    font-size: 25px;
+    line-height: 50%;
+    color: white;
+}
+
+.fullscreenSection p {
+    font-size: 18px;
+    line-height: 00%;
+    color: lightgrey;
+    color: rgb(172, 172, 172)
+}
+
+
+
+.headline {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 27px;
+    color: white;
+    text-align: center;
+}
+
+.backgroundCanvas {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: -1;
+}
+
+
+
+
+
+
+
+html {
+    scroll-behavior: smooth;
+}
